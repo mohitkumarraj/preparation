@@ -19,6 +19,10 @@ while (num!=0)
 for(int k=i-1;k>=0;k--){
     cout<<arr[k]<<" ";
 }
+
+
+
+
 return 0;
 }
 
