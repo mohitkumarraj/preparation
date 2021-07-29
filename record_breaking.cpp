@@ -5,6 +5,7 @@ int a[]={1,2,0,7,2,0,2,2,-1};
 int ans=0;
 int mx=INT_MIN;
 for(int i=0;i<8;i++){
+   
    if(mx>a[i]&&a[i]>a[i+1]&&(i+1)<8){
      ans++;
    }
